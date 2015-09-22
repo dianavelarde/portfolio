@@ -9,5 +9,5 @@ main image: portrait.jpg
 portfoliopiece:
  -info: title
  -info: description
- -infor: process
+ -info: process
 ---
