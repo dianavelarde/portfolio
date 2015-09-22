@@ -6,5 +6,8 @@ contact:
  -phone number: 613 700 6115
  -email: hello@dianavelarde.ca
 main image: portrait.jpg
-secondary image: portfoliopiece.jpg
+portfoliopiece:
+ -info: title
+ -info: description
+ -infor: process
 ---
