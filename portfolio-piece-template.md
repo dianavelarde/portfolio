@@ -1,13 +1,14 @@
 ---
-name: Diana Velarde
-age: 21
-location: Ottawa, Canada
+name: Porfolio art piece 1
+description: who is for, school or client?  applications used, what category is it, print, web, motion.
 contact:
- -phone number: 613 700 6115
- -email: hello@dianavelarde.ca
-main image: portrait.jpg
-portfoliopiece:
- -info: title
- -info: description
- -info: process
+ images:
+  -progess: sketch.jpg
+   description: how i started
+  -endproduct: image-1.jpg
+   description: whats in the photo
+  -endproduct: image-2.jpg
+   description: whats in the photo
+  -endproduct: image-3.jpg
+   description: whats in the photo
 ---
