@@ -35,42 +35,33 @@ html {
 
 header {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1em;
-    letter-spacing: 0.2em;
+    font-size: .8em;
+    letter-spacing: 0.15em;
     position: fixed;
     z-index: 10000;
     width: 100%;
-    height: 5em;
+    height: 9em;
     background-color: white; 
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
     
 }
 
-.hide-text {
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited{
-	display: block;
-	height: 40px;
-	width: 40px;
-    margin: 0 auto;
-	background: #a49841 url('../images/toggle.jpg') no-repeat center center;
-}
+.logo {
+    max-height: 185px;
+    padding-top: 3.4em;
+    }
+    
 
 .nav-btn:hover,
 .nav-btn:focus,
-.nav-btn:active{
-	background-color: #b7ba98;
+.nav-btn:active {
+	background-color: grey;
 }
 
 .nav a, 
 .nav a:link,
-.nav a:visited{
-	display: block;
+.nav a:visited {
+	display: inherit;
     width: 100%;
     text-align: center;
 	color: #000;
@@ -80,42 +71,48 @@ header {
 .nav a:hover,
 .nav a:focus,
 .nav a:active{
-	color: #a49841;
-}
-
-/* Toggle Nav*/
-
-.nav-top{
-    display: none;
-}
-
-.nav-top[data-state="expanded"]{
-    display: block;
-}
-
-nav ul {
-    margin: 0 auto;
-    text-align: center; 
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	color: gray;
+    text-decoration: underline;
 }
 
 nav ul li {
-    display: block;
-    padding: 2em 0 0 0;
     line-height: 1;
+    padding: 0.2em;
+    padding-top: 1em;
 }
 
 nav ul li a{
     text-decoration: none;
     list-style-type: none;
 }
+
+.illogo {
+    margin-top: -16em;
+}
+
+.mologo {
+    margin-top: -15em;
+}
 	
 @media only screen and (min-width: 35em) {
     
+    .logo {
+       max-height: 185px;
+       padding-top: 0em;
+    }
+    
+    .illogo {
+    margin-top: 0em;
+}
+
+.mologo {
+    margin-top: 0em;
+} 
     header {
         position: fixed;
         padding: 0.5em;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);      
+        height: 5em;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
     }
 	
 	.nav {
@@ -154,3 +151,15 @@ ul li a{
     text-decoration: none;
     list-style-type: none;
 }
+
+
+@media only screen and (min-width: 60em) {
+    
+    .logo {
+       max-height: 215px;
+    }
+    
+     header {
+       font-size: 1em;
+       height: 4em;
+     }
