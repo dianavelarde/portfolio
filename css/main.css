@@ -48,7 +48,7 @@ header {
 
 .logo {
     max-height: 185px;
-    padding-top: 3.4em;
+    padding-top: 3.5em;
     }
     
 
@@ -90,8 +90,22 @@ nav ul li a{
     margin-top: -16em;
 }
 
-.mologo {
+.typelogo {
     margin-top: -15em;
+}
+
+.large-screen {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.img {
+    display: block;
+    width: 100%;
+}
+
+.hr {
+    height: 200px;
 }
 	
 @media only screen and (min-width: 35em) {
@@ -105,7 +119,7 @@ nav ul li a{
     margin-top: 0em;
 }
 
-.mologo {
+.typelogo {
     margin-top: 0em;
 } 
     header {
@@ -150,6 +164,10 @@ ul li {
 ul li a{
     text-decoration: none;
     list-style-type: none;
+}
+
+.hr {
+    height: 150px;
 }
 
 
