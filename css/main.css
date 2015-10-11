@@ -47,7 +47,7 @@ header {
 }
 
 .logo {
-    max-height: 185px;
+    max-height: 165px;
     padding-top: 3.5em;
     }
     
@@ -75,6 +75,12 @@ header {
     text-decoration: underline;
 }
 
+a:focus {
+    text-decoration: overline;
+    color: gray;
+}
+
+
 nav ul li {
     line-height: 1;
     padding: 0.2em;
@@ -84,14 +90,15 @@ nav ul li {
 nav ul li a{
     text-decoration: none;
     list-style-type: none;
+    color: black;
 }
 
 .illogo {
-    margin-top: -16em;
+    margin-top: -14.4em;
 }
 
 .typelogo {
-    margin-top: -15em;
+    margin-top: -13.4em;
 }
 
 .large-screen {
@@ -107,11 +114,30 @@ nav ul li a{
 .hr {
     height: 200px;
 }
+
+.nav-bottom {
+    color: black;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.nav-bottom a:hover,
+.nav-bottom a:active {
+	color: gray;
+    text-decoration: underline;
+}
+
+.copyright {
+    padding-left: 4em;
+}
+
+
+
 	
 @media only screen and (min-width: 35em) {
     
     .logo {
-       max-height: 185px;
+       max-height: 115px;
        padding-top: 0em;
     }
     
@@ -167,14 +193,14 @@ ul li a{
 }
 
 .hr {
-    height: 150px;
+    height: 70px;
 }
 
 
 @media only screen and (min-width: 60em) {
     
     .logo {
-       max-height: 185px;
+       max-height: 140px;
     }
     
      header {
@@ -184,5 +210,5 @@ ul li a{
     
     
 .hr {
-    height: 120px;
+    height: 90px;
 }
