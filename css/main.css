@@ -174,10 +174,15 @@ ul li a{
 @media only screen and (min-width: 60em) {
     
     .logo {
-       max-height: 215px;
+       max-height: 185px;
     }
     
      header {
        font-size: 1em;
        height: 4em;
      }
+    
+    
+.hr {
+    height: 120px;
+}
