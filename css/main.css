@@ -130,8 +130,23 @@ nav ul li a{
 }
 
 
+/* about page */
 
-	
+.hello {
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 30px;
+}
+
+.about {
+    text-align: center;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (min-width: 35em) {
     
     .logo {
@@ -194,6 +209,12 @@ ul li a{
     height: 70px;
 }
 
+.about {
+    text-align: center;
+}
+    
+}
+
 
 @media only screen and (min-width: 60em) {
     
@@ -209,4 +230,16 @@ ul li a{
     
 .hr {
     height: 90px;
+}
+    
+    .about {
+    text-align: center;
+}
+}
+
+@media only screen and (min-width: 90em) {
+    
+     .about {
+    text-align: center; 
+}
 }
