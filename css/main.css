@@ -114,6 +114,9 @@ nav ul li a{
     height: 200px;
 }
 
+.hr2 {
+    height: 800px;
+}
 .nav-bottom {
     text-align: left;
     padding-left: 2em;
@@ -146,6 +149,35 @@ img.displayed {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* contact page */
+
+.contact {
+    padding-left: 3.5em;
+    font-weight: 300; 
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 5em;
+}
+
+.findme {
+    font-family: 'Fira Sans', sans-serif;
+     font-weight: 400;
+}
+
+.med li{
+    display: inline;
+    float: left;
+    width: 100px;
+    padding-left: -10em;
+}
+
+.social {
+    height: auto;
+    width: 70px;
+}
+
+
+
 
 @media only screen and (min-width: 35em) {
     
@@ -209,10 +241,16 @@ ul li a{
     height: 70px;
 }
 
+.hr2 {
+    height: 130px;
+}
 .about {
     text-align: center;
 }
-    
+   
+.contact {
+    margin-top: 2em;
+}
 }
 
 
@@ -234,6 +272,9 @@ ul li a{
     
     .about {
     text-align: center;
+}
+    .contact {
+    margin-top: -4em;
 }
 }
 
