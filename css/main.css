@@ -173,7 +173,7 @@ img.displayed {
     display: inline;
     float: left;
     width: 100px;
-    padding-left: -10em;
+    padding-left: 0em;
 }
 
 .social {
@@ -192,8 +192,7 @@ img.displayed {
     .illogo {
     margin-top: 0em;
 }
-
-.typelogo {
+    .typelogo {
     margin-top: 0em;
 } 
     header {
@@ -223,8 +222,6 @@ img.displayed {
 		display: block;
         font-size: 17px;
 	}
-	
-}
 
 ul {
     margin: 0 auto;
