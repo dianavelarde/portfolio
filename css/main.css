@@ -43,7 +43,6 @@ header {
     height: 9em;
     background-color: white; 
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-    
 }
 
 .logo {
@@ -71,8 +70,7 @@ header {
 .nav a:focus,
 .nav a:active {
      text-decoration: underline;
-    
-    color: gray;
+     color: gray;
 }
 
 .focus {
@@ -166,7 +164,7 @@ img.displayed {
 
 .findme {
     font-family: 'Fira Sans', sans-serif;
-     font-weight: 400;
+    font-weight: 400;
 }
 
 .med li{
@@ -191,10 +189,12 @@ img.displayed {
     
     .illogo {
     margin-top: 0em;
-}
+    }
+    
     .typelogo {
     margin-top: 0em;
-} 
+    }
+    
     header {
         position: fixed;
         padding: 0.5em;
@@ -222,35 +222,35 @@ img.displayed {
 		display: block;
         font-size: 17px;
 	}
+    
+    ul {
+        margin: 0 auto;
+        text-align: center; 
+    }
+    
+    ul li {
+        display: block;
+        padding: 0.2em;
+    }
 
-ul {
-    margin: 0 auto;
-    text-align: center; 
-}
+    ul li a{
+        text-decoration: none;
+        list-style-type: none;
+    }
 
-ul li {
-    display: block;
-    padding: 0.2em;
-}
+    .hr {
+        height: 70px;
+    }
 
-ul li a{
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.hr {
-    height: 70px;
-}
-
-.hr2 {
-    height: 130px;
-}
-.about {
-    text-align: center;
-}
-.contact {
-    padding-top: 6em;
-}
+    .hr2 {
+        height: 130px;
+    }
+    .about {
+        text-align: center;
+    }
+    .contact {
+        padding-top: 6em;
+    }
 }
 
 
@@ -266,21 +266,22 @@ ul li a{
      }
     
     
-.hr {
-    height: 90px;
-}
+    .hr {
+        height: 90px;
+    }
     
     .about {
     text-align: center;
     }
+    
     .contact {
     padding-top: 0em;
-}
+    }
 }
 
 @media only screen and (min-width: 90em) {
     
      .about {
-    text-align: center; 
-}
+        text-align: center; 
+     }
 }
