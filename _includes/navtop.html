@@ -1,9 +1,9 @@
  <nav class="nav nav-top">
             <ul class="nav-links">
-                <li><a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}nav-current{% endif %}"> HOME</a></li>
-                <li><a href="{{site.baseurl}}/about/" >WHO AM I</a></li>
+                <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}nav-current{% endif %}"> HOME</a></li>
+                <li><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}nav-current{% endif %}" >WHO AM I</a></li>
                 <li><a href="{{site.baseurl}}/"> <img class="logo" src="{{site.baseurl}}/images/logo.jpg" alt="DIANA"></a></li>
-                <li><a href="{{site.baseurl}}/contact/" class="illogo">CONTACT ME</a></li>
-                <li><a href="{{site.baseurl}}/extras/" class="typelogo">EXTRAS</a></li>
+                <li><a href="{{site.baseurl}}/contact/" class="illogo {% if page.url == '/contact/' %}nav-current{% endif %}">CONTACT ME</a></li>
+                <li><a href="{{site.baseurl}}/extras/" class="typelogo {% if page.url == '/extras/' %}nav-current{% endif %}">EXTRAS</a></li>
             </ul>
         </nav>

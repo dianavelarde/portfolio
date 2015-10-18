@@ -21,10 +21,10 @@
     <footer class="grid micro pad">
         <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 nav-bottom">
 		<ul class="nav-bottom pad-top-half">
-            <li><a href="{{site.baseurl}}/">HOME</a></li>
-      		<li><a href="{{site.baseurl}}/about/">WHO AM I</a></li>
-      		<li><a href="{{site.baseurl}}/contact/">CONTACT ME</a></li>
-      		<li><a href="{{site.baseurl}}/extras/">EXTRAS</a></li>
+            <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}focus{% endif %}">HOME</a></li>
+      		<li><a href="{{site.baseurl}}/about/" class="{% if page.url == '/about/' %}focus{% endif %}">WHO AM I</a></li>
+      		<li><a href="{{site.baseurl}}/contact/" class="{% if page.url == '/contact/' %}focus{% endif %}">CONTACT ME</a></li>
+      		<li><a href="{{site.baseurl}}/extras/" class="{% if page.url == '/extras/' %}focus{% endif %}">EXTRAS</a></li>
         </ul>
 	</nav>
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
