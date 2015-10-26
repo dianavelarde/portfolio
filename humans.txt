@@ -2,5 +2,24 @@
 
 # TEAM
 
-Deigner % Developer: Diana Velarde 
+Deigner % Developer: Diana Velarde <hey@dianavelarde.ca>
+Site: https://dianavelarde.ca
+Github: https://github.com/dianavelare
+Behance: @_dianavelarde_
+Location: Ottawa, Canada
+
+---
+# THANKS
+
+-Github
+-Hover
+___
+
+# TECHNOLOCY
+
+## Software
+
+-Github
+
+
 
