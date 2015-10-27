@@ -9,7 +9,9 @@
     {% endfor %}
     
      {% for pages in site.pages %} 
+     {% if page.layout %}
     {% include sitemap-entry.xml entry=pages %}
+    {% endif %}
     {% endfor %}
 
 
