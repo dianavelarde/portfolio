@@ -11,14 +11,15 @@
 </head>
 <body>
     
-    <header role="navigation" class="nav-bar">
+    <header role="banner" class="nav-bar">
         <a href="#nav" class="nav-btn"></a>
 {% include navtop.html %}
     </header>
-    
+   <main role="main">
     {{content}}
+    </main>
     
-    <footer class="grid micro pad">
+    <footer class="grid micro pad" role="contentinfo">
         <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 nav-bottom">
 		<ul class="nav-bottom pad-top-half">
             <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}focus{% endif %}">HOME</a></li>
