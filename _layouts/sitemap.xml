@@ -1,11 +1,17 @@
+---
+---
+
 <?xml version="1.0" endcoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schema/sitemap/0.9">
     
-    <url>
-        
+    {% for post in site.posts %} 
+    {% include sitemap-entry.xml entry=post %}
+    {% endfor %}
     
-    
-    </url>
+     {% for pages in site.pages %} 
+    {% include sitemap-entry.xml entry=pages %}
+    {% endfor %}
+
 
 
     
