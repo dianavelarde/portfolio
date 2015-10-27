@@ -1,23 +1,16 @@
-<?xml version="1.0" endcoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
+    <url><loc>https://dianavelarde.github.io</loc>
+    </url>
     
+        <url><loc>https://dianavelarde.github.io/about.html</loc>
+    </url>
     
-      
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
+            <url><loc>https://dianavelarde.github.io/contact.html</loc>
+    </url>
     
-
-
-
+            <url><loc>https://dianavelarde.github.io/extras.html</loc>
+    </url>
     
 </urlset>
