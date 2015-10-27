@@ -1,0 +1,2 @@
+Sitemap: https://dianavelarde.github.io/portfolio/sitemap.xml
+User-agent:*
