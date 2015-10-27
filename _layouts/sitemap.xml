@@ -2,7 +2,7 @@
 ---
 
 <?xml version="1.0" endcoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schema/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     {% for post in site.posts %} 
     {% include sitemap-entry.xml entry=post %}
