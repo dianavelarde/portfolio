@@ -183,6 +183,12 @@ img.displayed {
     width: 70px;
 }
 
+/* accesibility */
+
+a: focus{
+    outline: 3px solid #000;
+    
+}
 
 @media only screen and (min-width: 35em) {
     
