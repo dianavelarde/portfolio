@@ -138,6 +138,8 @@ nav ul li a{
     padding-top:  .1em;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
+    height: auto;
 }
 
 
