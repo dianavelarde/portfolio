@@ -11,15 +11,22 @@
 </head>
 <body>
     
-    <header role="banner" class="nav-bar">
+    <ul class="skip-links">
+        <li><a href="#nav">Skip to the navigation</a> </li>
+        <li><a href="#main">Skip to the Main</a> </li>
+        <li><a href="#footer">Skip to the Footer</a> </li>
+    
+    </ul>
+    
+    <header role="banner" class="nav-bar" id="top">
         <a href="#nav" class="nav-btn"></a>
 {% include navtop.html %}
     </header>
-   <main role="main">
+   <main role="main" id="main">
     {{content}}
     </main>
     
-    <footer class="grid micro pad" role="contentinfo">
+    <footer class="grid micro pad" role="contentinfo" id="footer">
         <nav class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 nav-bottom">
 		<ul class="nav-bottom pad-top-half">
             <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}focus{% endif %}">HOME</a></li>
@@ -29,7 +36,7 @@
         </ul>
 	</nav>
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-		<p class="copyright unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1"> Copyright © 2015 Dianavelarde </p>
+		<p class="copyright unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1"> Copyright © 2015 Dianavelarde <a href="#top"> Top </a> </p>
 	</div>
         </footer>
 
