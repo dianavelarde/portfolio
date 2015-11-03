@@ -169,6 +169,16 @@ img.displayed {
     padding-top: 7em;
 }
 
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+.email:hover {
+    color: #ad6556;
+    
+}
+
 .findme {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
