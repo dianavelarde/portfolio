@@ -172,7 +172,6 @@ img.displayed {
 .email {
     text-decoration: none;
     color: black;
-    font-weight: bold;
 }
 
 .email:hover {
@@ -203,7 +202,6 @@ img.displayed {
     padding: 0;
     list-style-type: none;
     color: #000;
-    padding: 0.5em 0.75em;
     font-weight: bold;
     text-decoration: none;
 }
@@ -266,7 +264,6 @@ img.displayed {
     
     ul li {
         display: block;
-        padding: 0.2em;
     }
 
     ul li a{
