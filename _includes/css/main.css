@@ -137,15 +137,31 @@ nav ul li a{
     padding-right: .1em;
     padding-bottom: .1em;
     padding-top:  .1em;
-    text-align: center;
-    position: relative;
-    opacity: 1;
 }
 
 p {
     line-height: 2em;
 }
 
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
 
 span.text-content span {
   display: table-cell;
