@@ -280,6 +280,11 @@ img.notfound {
     margin-right: auto;    
 }
 
+.fof {
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 60px;
+}
+
 @media only screen and (min-width: 35em) {
     
     .logo {
