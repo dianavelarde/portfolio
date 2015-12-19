@@ -256,6 +256,12 @@ img.displayed {
 }
 
 /* skiplinks */
+img.notfound {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+}
 
 .skip-links {
     margin: 0;
@@ -273,6 +279,9 @@ img.displayed {
 .skip-links a:focus {
     top: 0;
 }
+
+/* 404 page */
+
 
 @media only screen and (min-width: 35em) {
     
