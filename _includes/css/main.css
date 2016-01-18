@@ -202,7 +202,9 @@ text-align: left;
 	transition-delay: 100ms;
     z-index: 100;
 }
-
+.sub{
+    font-weight: .5em;
+}
 /* about page */
 
 .hello {
@@ -218,7 +220,16 @@ img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 200pt;
 }
+
+img.display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100pt;
+}
+
 
 /* contact page */
 
@@ -361,6 +372,14 @@ img.notfound {
     .photo-grid figcaption h3 {
     font-size: 1.5em;
     }
+    
+    img.displayed {
+    height: 300pt;
+    }
+    
+    img.display {
+    height: 150pt;
+    }
 }
 
 
@@ -381,14 +400,22 @@ img.notfound {
     }
     
     .about {
-    text-align: center;
+        text-align: center;
     }
     
     .contact {
-    padding-top: 0em;
+        padding-top: 0em;
     }
      .photo-grid figcaption h3 {
-    font-size: 1.8em;
+        font-size: 1.8em;
+    }
+    
+    img.displayed {
+        height: auto;
+    }
+    
+    img.display {
+        height: 170pt;
     }
 }
 
@@ -402,5 +429,8 @@ img.notfound {
     margin-left: auto;
     margin-right: auto;
 }
+       img.display {
+        height: 200pt;
+    }
 
 }
