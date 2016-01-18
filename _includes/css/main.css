@@ -168,14 +168,14 @@ text-align: left;
 }
 
 .photo-grid figcaption h3 {
-	display: table-cell;
-	font-size: 1.5em;
+    font-size: 1.8em;
     font-family: 'Fira Sans', sans-serif;
 	-webkit-transition: all 250ms ease-out;
 	-moz-transition: all 250ms ease-out;
 	transition: all 250ms ease-out;
 	vertical-align: middle;
 }
+
 
 .photo-grid li:hover figcaption h3 {
 	-moz-transform: translateY(10px);
@@ -185,7 +185,7 @@ text-align: left;
 
 
 .photo-grid figcaption {
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.5);
 	color: white;
 	opacity: 0;
 	left: 0;
@@ -285,6 +285,7 @@ img.notfound {
    font-size: 60px;
 }
 
+
 @media only screen and (min-width: 35em) {
     
     .logo {
@@ -356,6 +357,10 @@ img.notfound {
     .contact {
         padding-top: 6em;
     }
+    
+    .photo-grid figcaption h3 {
+    font-size: 1.5em;
+    }
 }
 
 
@@ -381,6 +386,9 @@ img.notfound {
     
     .contact {
     padding-top: 0em;
+    }
+     .photo-grid figcaption h3 {
+    font-size: 1.8em;
     }
 }
 
