@@ -312,7 +312,15 @@ img.notfound {
    font-size: 60px;
 }
 
+.clic {
+    margin-top: 9em;
 
+}
+
+figcaption {
+    text-decoration: none;
+
+}
 
 @media only screen and (min-width: 35em) {
     
