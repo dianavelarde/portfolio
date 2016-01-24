@@ -248,7 +248,8 @@ img.display {
 }
 
 .subt{
-    color: orange;  
+    color: orange; 
+    text-decoration:none; 
 
 }
 
