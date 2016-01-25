@@ -331,6 +331,11 @@ img.notfound {
 
 }
 
+.height {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 @media only screen and (min-width: 35em) {
     
@@ -431,7 +436,7 @@ img.notfound {
 @media only screen and (min-width: 60em) {
     
     .logo {
-       max-height: 91px;
+       max-height: 97px;
         padding-top: 1em;
         margin-top: -2.1em;
     }
@@ -464,6 +469,10 @@ img.notfound {
     img.display {
         height: 170pt;
     }
+    
+    .height {
+padding-left: 7em;
+padding-right: 7em;}
     
 }
 
