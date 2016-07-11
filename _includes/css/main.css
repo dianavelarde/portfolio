@@ -222,6 +222,12 @@ text-align: left;
     color: orange;
     font-size: 1.3em;
 }
+
+.small{
+    max-width: 300px;
+    height: auto;
+}
+
 /* about page */
 
 .hello {
@@ -238,6 +244,13 @@ img.displayed {
     margin-left: auto;
     margin-right: auto;
     height: 200pt;
+}
+
+img.displaybig {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1950pt;
 }
 
 img.display {
@@ -438,6 +451,13 @@ img.notfound {
   height: auto;
     width: 300px;
 }
+    
+    img.displaybig {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2850pt;
+}
 }
 
 
@@ -488,6 +508,13 @@ padding-right: 7em;
     width: 480px;
 }
     
+    img.displaybig {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+    
 }
 
 @media only screen and (min-width: 90em) {
@@ -504,4 +531,10 @@ padding-right: 7em;
         height: 200pt;
     }
 
+        img.displaybig {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
 }
